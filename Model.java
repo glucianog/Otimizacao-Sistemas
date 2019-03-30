@@ -32,7 +32,7 @@ public class Model {
 
             // ** Função Objetiva **
             // Definir colunas (variáveis)
-            GLPK.glp_add_cols(lp, 5);
+            GLPK.glp_add_cols(lp, 15);
             GLPK.glp_set_col_name(lp, 1, "xa1t1");
             GLPK.glp_set_col_kind(lp, 1, GLPKConstants.GLP_CV);
             GLPK.glp_set_col_bnds(lp, 1, GLPKConstants.GLP_LO, 0.0, 0.0);            
@@ -89,7 +89,7 @@ public class Model {
 
             // ** Restrições **    
             //Criar linhas (variáveis artificiais)
-            GLPK. GLPK.glp_add_rows(lp, 16);
+            GLPK.glp_add_rows(lp, 16);
 
             // Restrições Alunos
             GLPK.glp_set_row_name(lp, 1, "a1");
