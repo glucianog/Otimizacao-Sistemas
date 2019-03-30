@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h>
-#include <glpk.h>
+#include "glpk.h"
 
 
 int main(void) {
