@@ -7,16 +7,6 @@ import org.gnu.glpk.glp_prob;
 import org.gnu.glpk.glp_smcp;
 
 public class Model {
-    //	Minimize z = -.5 * x1 + .5 * x2 - x3 + 1
-    //
-    //	subject to
-    //	0.0 <= x1 - .5 * x2 <= 0.2
-    //  -x2 + x3 <= 0.4
-    //	where,
-    //	0.0 <= x1 <= 0.5
-    //	0.0 <= x2 <= 0.5
-    //  0.0 <= x3 <= 0.5
-
     public static void main(String[] arg) {
         glp_prob lp;
         glp_smcp parm;
