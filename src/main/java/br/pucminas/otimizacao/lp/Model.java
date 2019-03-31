@@ -7,7 +7,7 @@ import org.gnu.glpk.glp_prob;
 import org.gnu.glpk.glp_smcp;
 
 public class Model {
-    public static void main(String[] arg) {
+    public static void run() {
         glp_prob lp;
         glp_smcp parm;
         SWIGTYPE_p_int ind;
@@ -222,6 +222,7 @@ public class Model {
             ex.printStackTrace();
 	    ret = 1;
         }
+
         System.exit(ret);
     }  
 

@@ -25,3 +25,6 @@ hs_err_pid*
 
 # remove vs code archives
 .vscode/
+
+# Node.
+node_modules/
